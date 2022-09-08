@@ -1,0 +1,20 @@
+# write a python script to print first N sum of odd numbers.
+
+a=21
+i=1
+sum=0
+while i<=a:
+    sum=sum+i
+    i+=2
+print("sum of odd number",sum)    
+
+
+'''a=21
+sum=0
+for i in range(1,a):
+    if i%2==0:
+        sum=sum+i
+print(sum)'''
+
+
+                     
